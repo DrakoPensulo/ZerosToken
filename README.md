@@ -1,2 +1,2 @@
-# ZeroToken
-ZeroToken Chia Asset Token
+# ZerosToken
+ZerosToken Chia Asset Token
