@@ -1,0 +1,49 @@
+; THIS TAIL IS PROVIDED AS IS WITH NO WARRANTY. IT HAS NOT BEEN AUDITED OR TESTED. FOR EDUCATIONAL PURPOSES ONLY. 
+; USE IT ON YOUR OWN RISK. YOU MAY LOSS SOME OF ALL OF YOUR ASSETS. 
+; 
+; Name: 0000... Zeros 
+; Code: 0000  
+; Image: https://bafybeihovkl7hicr6rvebzmu7vjgawa6gc3kizghkml2jv4mina4dhxwk4.ipfs.nftstorage.link/zerotokenT.png 
+;
+; Intended behavior
+;      Everyone can mint any number of tokens ONLY BEFORE the block 6100281 (approximately Nov 03, 2024). NO MINTIG POSSIBLE AFTER THAT BLOCK. 
+;      Melting possible FOREVER AFTER the block 7771033 (approximately Oct 18, 2025)
+
+; Compiled code
+; ff02ffff01ff02ffff03ff2fffff01ff02ffff03ffff22ff0bffff09ffff11ff80ff2f80ff81bd8080ffff01ff04ffff04ff0cffff04ff0aff808080ff8080ffff01ff08ffff018c4472616b6f50656e73756c6f8080ff0180ffff01ff04ffff04ff08ffff04ff0eff808080ff808080ff0180ffff04ffff01ffff5753ff83769399835d1539ff018080
+; Decompiled code
+; (a (q 2 (i 47 (q 2 (i (all 11 (= (- () 47) -67)) (q 4 (c 12 (c 10 ())) ()) (q 8 (q . "DrakoPensulo"))) 1) (q 4 (c 8 (c 14 ())) ())) 1) (c (q (87 . 83) 0x769399 . 0x5d1539) 1))
+; Asset ID 00000000024e1fb9fc47c7ec72854c6a987c4cc99f6535a4caca6154220eeda5
+;
+; To mint tokens use the CAT-admin-tool's command: 
+; cats --amount 1000000000 --fee 1000000000 --send-to xch1___YOUR___ADDRESS___HERE_ --tail 'ff02ffff01ff02ffff03ff2fffff01ff02ffff03ffff22ff0bffff09ffff11ff80ff2f80ff81bd8080ffff01ff04ffff04ff0cffff04ff0aff808080ff8080ffff01ff08ffff018c4472616b6f50656e73756c6f8080ff0180ffff01ff04ffff04ff08ffff04ff0eff808080ff808080ff0180ffff04ffff01ffff5753ff83769399835d1539ff018080' --solution '()'  
+; You can adjust --amount and --fee parameters above. 
+; Any amount of the token can be minted BEFORE the block 6100281.  
+; Melting has not been fully tested. No melting instructions provided (may require a custom spendbundle) 
+; 
+; DrakoPensulo Feb 18, 2024
+;
+(mod (
+      Truths
+      parent_is_cat
+      lineage_proof
+      delta
+      inner_conditions
+      _
+    )
+
+    (include cat_truths.clib)
+    (include condition_codes.clib)
+
+    (defconstant MINT_LAST_BLOCK 6100281) 
+    (defconstant MELT_FIRST_BLOCK 7771033)
+
+    (if delta  
+        (if
+		(all parent_is_cat (= (- 0 delta) (my_amount_cat_truth Truths)))
+        	(list (list ASSERT_HEIGHT_ABSOLUTE MELT_FIRST_BLOCK))
+		    (x (q . "DrakoPensulo"))    
+	    )        
+        (list (list ASSERT_BEFORE_HEIGHT_ABSOLUTE MINT_LAST_BLOCK))    
+     )
+)
