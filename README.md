@@ -16,3 +16,4 @@ CAT = Chia Asset Token https://chialisp.com/cats
 TAIL = Token and Asset Issuance Limitations https://chialisp.com/cats/#tail
 
 
+A bug reported: https://github.com/Chia-Network/chia-blockchain/issues/17727
