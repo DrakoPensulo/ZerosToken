@@ -8,6 +8,7 @@ FOR EDUCATIONAL PURPOSES ONLY.
 USE IT ON YOUR OWN RISK. YOU MAY LOSS SOME OF ALL OF YOUR ASSETS.
 
 Asset ID 00000000024e1fb9fc47c7ec72854c6a987c4cc99f6535a4caca6154220eeda5
+[Source code][source_code_link]
 
 Intended behavior
       Everyone can mint any number of tokens ONLY BEFORE the block 6100281 (approximately Nov 03, 2024). NO MINTIG POSSIBLE AFTER THAT BLOCK. 
@@ -52,3 +53,4 @@ CAT = Chia Asset Token https://chialisp.com/cats
 TAIL = Token and Asset Issuance Limitations https://chialisp.com/cats/#tail
 
 
+[source_code_link] https://github.com/DrakoPensulo/ZerosToken/blob/main/src/ZeroToken.clsp
