@@ -31,6 +31,7 @@ Testnet version of the Zeros... 0000 token should be mintable and meltable up to
 
 
 1), 2), 3), and 4) as above
+
 5) Change network to Testnet11 via chia configure -t true
 6) To mint 1m Testnet Zeros... T0000 token execute (total cost 0.001001 TXCH)
 cats --amount 1000000000 --fee 1000000 --send-to txch1___YOUR___ADDRESS___HERE_ --tail 'ff02ffff01ff02ffff03ff2fffff01ff02ffff03ffff22ff0bffff09ffff11ff80ff2f80ff81bd8080ffff01ff04ffff04ff0cffff04ff0aff808080ff8080ffff01ff08ffff018c4472616b6f50656e73756c6f8080ff0180ffff01ff04ffff04ff08ffff04ff0eff808080ff808080ff0180ffff04ffff01ffff5753ff8304ef818407bfab2dff018080' --solution '()'
