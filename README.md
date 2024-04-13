@@ -53,4 +53,4 @@ CAT = Chia Asset Token https://chialisp.com/cats
 TAIL = Token and Asset Issuance Limitations https://chialisp.com/cats/#tail
 
 
-[source_code_link] https://github.com/DrakoPensulo/ZerosToken/blob/main/src/ZeroToken.clsp
+[source_code_link]: https://github.com/DrakoPensulo/ZerosToken/blob/main/src/ZeroToken.clsp
