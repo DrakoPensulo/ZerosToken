@@ -27,7 +27,7 @@ Asset ID 0000000062fccdc5df5dc44770a614f85154c27298e22bdcedbcb76af5056e5c
 Testnet version of the Zeros... 0000 token should be mintable and meltable up to year 2101. 
 
 
-1) - 4) as above
+1) 2) 3) 4) as above
 5) Change network to Testnet11 via chia configure -t true
 6) To mint 1m Testnet Zeros... T0000 token execute (total cost 0.001001 TXCH)
 cats --amount 1000000000 --fee 1000000 --send-to txch1___YOUR___ADDRESS___HERE_ --tail 'ff02ffff01ff02ffff03ff2fffff01ff02ffff03ffff22ff0bffff09ffff11ff80ff2f80ff81bd8080ffff01ff04ffff04ff0cffff04ff0aff808080ff8080ffff01ff08ffff018c4472616b6f50656e73756c6f8080ff0180ffff01ff04ffff04ff08ffff04ff0eff808080ff808080ff0180ffff04ffff01ffff5753ff8304ef818407bfab2dff018080' --solution '()'
@@ -37,9 +37,14 @@ To melt 1m Testnet Zeros... T0000 token execute, total cost 1m mojos, 0.001 TXCH
 
 cats --amount -1000000000 --fee 1000000 --send-to txch1___YOUR___ADDRESS___HERE_ --tail 'ff02ffff01ff02ffff03ff2fffff01ff02ffff03ffff22ff0bffff09ffff11ff80ff2f80ff81bd8080ffff01ff04ffff04ff0cffff04ff0aff808080ff8080ffff01ff08ffff018c4472616b6f50656e73756c6f8080ff0180ffff01ff04ffff04ff08ffff04ff0eff808080ff808080ff0180ffff04ffff01ffff5753ff8304ef818407bfab2dff018080' --solution '()'
 
+# Bug reported
+
+https://github.com/Chia-Network/chia-blockchain/issues/17727
+
+# Glossary
 
 CAT = Chia Asset Token https://chialisp.com/cats
+
 TAIL = Token and Asset Issuance Limitations https://chialisp.com/cats/#tail
 
 
-A bug reported: https://github.com/Chia-Network/chia-blockchain/issues/17727
