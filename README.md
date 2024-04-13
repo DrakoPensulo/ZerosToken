@@ -27,6 +27,7 @@ cats --amount 1000000000 --fee 10000000 --send-to xch1___YOUR___ADDRESS___HERE_ 
 # Testnet Zeros... T0000 token
 
 Asset ID 0000000062fccdc5df5dc44770a614f85154c27298e22bdcedbcb76af5056e5c
+[Source code][sourcetestnet_code_link]
 
 Testnet version of the Zeros... 0000 token should be mintable and meltable up to year 2101. 
 
@@ -54,3 +55,4 @@ TAIL = Token and Asset Issuance Limitations https://chialisp.com/cats/#tail
 
 
 [source_code_link]: https://github.com/DrakoPensulo/ZerosToken/blob/main/src/ZeroToken.clsp
+[sourcetestnet_code_link]: https://github.com/DrakoPensulo/ZerosToken/blob/main/Testnet/ZeroTokenT11.clsp
