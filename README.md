@@ -1,7 +1,10 @@
 # ZerosToken
 ZerosToken Chia Asset Token
 
-THIS TAIL IS PROVIDED AS IS WITH NO WARRANTY. IT HAS NOT BEEN AUDITED OR TESTED. FOR EDUCATIONAL PURPOSES ONLY. 
+THIS TAIL IS PROVIDED AS IS WITH NO WARRANTY. IT HAS NOT BEEN AUDITED OR TESTED. 
+
+FOR EDUCATIONAL PURPOSES ONLY. 
+
 USE IT ON YOUR OWN RISK. YOU MAY LOSS SOME OF ALL OF YOUR ASSETS.
 
 Asset ID 00000000024e1fb9fc47c7ec72854c6a987c4cc99f6535a4caca6154220eeda5
@@ -27,7 +30,7 @@ Asset ID 0000000062fccdc5df5dc44770a614f85154c27298e22bdcedbcb76af5056e5c
 Testnet version of the Zeros... 0000 token should be mintable and meltable up to year 2101. 
 
 
-1) 2) 3) 4) as above
+1), 2), 3), and 4) as above
 5) Change network to Testnet11 via chia configure -t true
 6) To mint 1m Testnet Zeros... T0000 token execute (total cost 0.001001 TXCH)
 cats --amount 1000000000 --fee 1000000 --send-to txch1___YOUR___ADDRESS___HERE_ --tail 'ff02ffff01ff02ffff03ff2fffff01ff02ffff03ffff22ff0bffff09ffff11ff80ff2f80ff81bd8080ffff01ff04ffff04ff0cffff04ff0aff808080ff8080ffff01ff08ffff018c4472616b6f50656e73756c6f8080ff0180ffff01ff04ffff04ff08ffff04ff0eff808080ff808080ff0180ffff04ffff01ffff5753ff8304ef818407bfab2dff018080' --solution '()'
