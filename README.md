@@ -14,6 +14,10 @@ Intended behavior
       Everyone can mint any number of tokens ONLY BEFORE the block 6100281 (approximately Nov 03, 2024). NO MINTIG POSSIBLE AFTER THAT BLOCK. 
       Melting possible FOREVER AFTER the block 7771033 (approximately Oct 18, 2025) [NOT TESTED].
 
+# IMPORTANT UPDATE
+
+Due to miscalculation and/or due to blocks being created faster than expected the last minting block 6100281 will be created about OCTOBER 21, 2024. No minting possible after that block!
+
 # How to mint
 
 1) Install Chia Blockchain https://www.chia.net/downloads/
