@@ -18,7 +18,7 @@ Intended behavior
 
 Due to miscalculation and/or due to blocks being created faster than expected the last minting block 6100281 will be created about OCTOBER 21, 2024. No minting possible after that block!
 
-# How to mint
+# How to issue/mint
 
 1) Install Chia Blockchain https://www.chia.net/downloads/
 2) Install Python (if it has not been installed yet) https://www.python.org/
