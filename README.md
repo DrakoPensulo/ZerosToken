@@ -18,7 +18,12 @@ Intended behavior
 
 Due to miscalculation and/or due to blocks being created faster than expected the last minting block 6100281 will be created about OCTOBER 21, 2024. No minting possible after that block!
 
+Community issued 11 111 111 111.111 Zeros... tokens [SpaceScan 0000 token][spacescan_0000_link]. Burned: 50 171 Zeros... tokens [SpaceScan Burn Address][ssburn_link]. Melted: 0 Zeros... tokens. 
+
+
 # How to issue/mint
+
+Update: Issuance period has ended forever. 
 
 1) Install Chia Blockchain https://www.chia.net/downloads/
 2) Install Python (if it has not been installed yet) https://www.python.org/
@@ -64,3 +69,5 @@ xch18s2jwxhvx7457ste3pvnqaznjy5rvsgh7nys326y8zlstgc0qepqxgaera
 
 [source_code_link]: https://github.com/DrakoPensulo/ZerosToken/blob/main/src/ZeroToken.clsp
 [sourcetestnet_code_link]: https://github.com/DrakoPensulo/ZerosToken/blob/main/Testnet/ZeroTokenT11.clsp
+[spacescan_0000_link]: https://spacescan.io/cat2/00000000024e1fb9fc47c7ec72854c6a987c4cc99f6535a4caca6154220eeda5
+[ssburn_link]: https://spacescan.io/address/xch1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqm6ks6e8mvy?tab=Tokens
